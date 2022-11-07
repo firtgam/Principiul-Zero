@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url(../css/css-обнуление.css);
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.wrapper {
+  min-height: 100%;
+  background-color: rgb(255, 255, 255);
+  background: url("/img/1618426182_3-funart_pro-p-oboi-fon-staraya-bumaga-3.jpg") 0 0 repeat;
+}
+
+.header {
+  border-bottom: 2px solid rgb(7, 82, 57);
+  padding: 0px 0px 0px 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.header__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__title {
+  margin: 0px auto;
+  font-family: "Russo One", sans-serif;
+  margin: 55px 0px 5px 0px;
+  font-size: 56px;
+  letter-spacing: 2px;
+  color: rgb(10, 128, 88);
+  width: 455px;
+  height: 56px;
+  border-radius: 40px 0px 50px 0px;
+  overflow: hidden;
+  margin: 55px auto 5px auto;
+}
+
+.menu {
+  font-family: "Crimson Pro";
+  margin: 30px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.menu .item a {
+  color: rgb(10, 128, 88);
+  font-size: 33px;
+  margin: 0px 30px 0px 0px;
+  font-weight: 500;
+}
+.menu .item a:hover {
+  color: rgb(7, 82, 57);
+}
+.menu .item a:active {
+  color: rgb(4, 168, 113);
+  font-weight: 600;
+}
+.menu li:nth-child(2) a {
+  text-shadow: 0px 2px 3px rgb(4, 168, 113);
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
+.content {
+  font-family: "Crimson Pro";
+}
+
+.content__somn {
+  padding: 0px 0px 40px 0px;
+  border-bottom: 2px solid rgb(7, 82, 57);
+}
+
+.somn__text {
+  font-size: 26px;
+}
+
+.somn__text span {
+  display: inline-block;
+  margin: 0px 0px 0px 11px;
+}
+
+.somn__list {
+  padding: 10px 0px 10px 0px;
+}
+
+.somn__item {
+  margin: 0px 0px 0px 10px;
+}
+
+.somn__surse {
+  margin: 20px 0px 0px 0px;
+}
+
+.content__emisfera {
+  padding: 20px 0px 40px 0px;
+}
+
+.emisfera__text {
+  font-size: 26px;
+}
+
+.emisfera__text span {
+  display: inline-block;
+  margin: 0px 0px 0px 11px;
+}
+
+.link {
+  color: rgb(10, 128, 88);
+}
+
+.link:hover {
+  color: rgb(7, 82, 57);
+}
+
+.link :active {
+  color: rgb(4, 168, 113);
+}
+
+.emisfera__surse {
+  margin: 20px 0px 0px 0px;
+}
+
+.somn__autor {
+  text-align: right;
+  margin: 50px 0px 0px 0px;
+}
+
+.emisfere__autor {
+  text-align: right;
+  margin: 50px 0px 0px 0px;
+}
